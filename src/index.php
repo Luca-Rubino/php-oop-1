@@ -2,7 +2,11 @@
 
 include __DIR__ . '/src/models/movie.php';
 
+$mConfidenza = new Movie ( "Confidenza", "Drammatico", "Confidenza-locandina" , "7/10");
 
+$mInsideOut2 = new Movie ( "INSIDE OUT 2", "Animazione", "/src/img/INSIDE_OUT 2-locandina.jpg" , "8/10");
+
+$mAnimaliRandagi = new Movie ( "ANIMALI RANDAGI", "Drammatico", "/src/img/Animali_Randagi-locandina.jpg" , "7/10");
 
 ?>
 
