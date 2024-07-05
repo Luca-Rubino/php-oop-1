@@ -1,12 +1,12 @@
 <?php
 
 class Movie{
-    private $titolo;
-    private $genere;
-    private $imgPoster;
-    private $vote;
+    public $titolo;
+    public $genere;
+    public $imgPoster;
+    public $vote;
 
-    private function __construct( $_titolo, $_genere, $_imgPoster, $_vote ){
+    public function __construct( $_titolo, $_genere, $_imgPoster, $_vote ){
         $this->titolo = $_titolo;
         $this->genere = $_genere;
         $this->imgPoster = $_imgPoster;
