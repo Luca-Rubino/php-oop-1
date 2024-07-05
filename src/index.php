@@ -1,4 +1,6 @@
-<?php 
+<?php
+
+include __DIR__ . '/src/models/movie.php';
 
 
 
