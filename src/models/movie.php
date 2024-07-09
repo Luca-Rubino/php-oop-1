@@ -21,7 +21,7 @@ class Movie{
         return $this->genere;
     }
 
-    public function getimgPoster(){
+    public function getImgPoster(){
         return $this->imgPoster;
     }
 
