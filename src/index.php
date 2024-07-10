@@ -8,15 +8,6 @@ $moviesList = [
     new Movie ( "ANIMALI RANDAGI", "Drammatico", "http://localhost/php-oop-1/src/img/Animali_Randagi-locandina.jpg" , "7/10"),
 ];
 
-// $mConfidenza = new Movie ( "Confidenza", "Drammatico", "Confidenza-locandina.jpg" , "7/10");
-
-// $mInsideOut2 = new Movie ( "INSIDE OUT 2", "Animazione", "/src/img/INSIDE_OUT 2-locandina.jpg" , "8/10");
-
-// $mAnimaliRandagi = new Movie ( "ANIMALI RANDAGI", "Drammatico", "/src/img/Animali_Randagi-locandina.jpg" , "7/10");
-
-// var_dump($mConfidenza, $mInsideOut2, $mAnimaliRandagi);
-
-// echo $mConfidenza->getTitle();
 ?>
 
 
@@ -36,7 +27,9 @@ $moviesList = [
         <ul>
             <li>
                 <h2> <?php echo $movieList -> getTitle() ?> </h2>
-                <img src="<?php echo $movieList -> getImgPoster() ?>" alt="<?php echo $movieList -> getTitle() ?>">
+                <div>
+                    <img src="<?php echo $movieList -> getImgPoster() ?>" alt="<?php echo $movieList -> getTitle() ?>">
+                </div>
             </li>
             <li>
                 <p>Genere: <?php echo $movieList -> getGenere() ?></p>
@@ -45,6 +38,5 @@ $moviesList = [
         </ul>
     <?php } ?>
     </section>
-    <script src="./js/script.js"></script>
 </body>
 </html>
